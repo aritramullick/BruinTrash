@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <Button
+        android:id="@+id/photobutton"
+        android:layout_width="210dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="3dp"
+        android:text="Photo"
+        app:layout_constraintBottom_toTopOf="@+id/analyze"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="181dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="80dp"
+        android:adjustViewBounds="false"
+        android:background="@android:color/transparent"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/trash"
+        android:textAlignment="center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/photobutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/trash"
+        tools:srcCompat="@drawable/trash"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/analyze"
+        android:layout_width="176dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="100dp"
+        android:text="Analyze!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photobutton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="288dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="30dp"
+        android:text="BruinTrash"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

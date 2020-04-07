@@ -1,0 +1,2 @@
+rootProject.name='BruinTrash'
+include ':app'

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "157196027445",
+    "firebase_url": "https://bruintrash.firebaseio.com",
+    "project_id": "bruintrash",
+    "storage_bucket": "bruintrash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157196027445:android:6bc6672e216f61e7cb937c",
+        "android_client_info": {
+          "package_name": "com.example.bruintrash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157196027445-c4d8nhgv1247fjl0jsm75k37du2d919n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfNnOysWhid_sNlnrGRoxlZ-5SckhoTXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157196027445-c4d8nhgv1247fjl0jsm75k37du2d919n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
